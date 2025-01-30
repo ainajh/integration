@@ -1,7 +1,15 @@
 @import url("./variable.css");
 @import url("./abstract/reset.css");
 
+/* layout  */
+@import url("./layouts/header.css");
+@import url("./layouts/footer.css");
 
-@import url('./layouts/header.css');
+/* Components  */
+
+@import url("./components/button.css");
 
 
+/* pages  */
+
+@import url("./page/login.css");

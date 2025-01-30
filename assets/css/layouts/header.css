@@ -58,3 +58,29 @@ header .header_2 > div a {
   gap: 8px;
   align-items: center;
 }
+
+header .header_3 {
+  height: 60px;
+  overflow: auto;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+header .header_3 ul {
+  gap: 15px;
+  height: 100%;
+  align-items: center;
+  display: grid;
+
+  padding: 0 10px; /* top-bottom left-right */
+  padding: 0 10px 0 10px; /* top right bottom left */
+
+  /* padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px; */
+}
+header .header_3 ul li {
+  text-transform: uppercase;
+  grid-row: 1;
+  font-size: 16px;
+  font-weight: 500;
+}

@@ -1,0 +1,114 @@
+.pg-login {
+  background: var(--gray-light);
+  padding: 100px 0;
+  display: flex;
+  justify-content: center;
+}
+.pg-login a {
+  color: black;
+}
+.pg-login .card {
+  width: 800px;
+  height: 400px;
+  background-color: var(--white);
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+.pg-login .card .card_left {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  color: gray;
+}
+.pg-login .card .card_left h1 {
+  color: var(--black);
+  font-size: 2rem;
+  font-weight: 600;
+}
+.pg-login .card .card_left ul {
+  display: flex;
+  gap: 10px;
+}
+
+.pg-login .card .card_left ul li {
+  border: 1px solid gray;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pg-login .card .card_left .divider {
+  font-size: 0.8rem;
+}
+
+.pg-login .card .card_left .form_input {
+  border: 1px solid var(--primary);
+  height: 40px;
+  width: 100%;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 40px 1fr;
+}
+.pg-login .card .card_left .form_input i {
+  background: var(--primary);
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+}
+
+.pg-login .card .card_left .form_input input {
+  border: none;
+  /* border-radius: 5px; */
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 0 5px;
+}
+
+.pg-login .card .card_left .form_input input:focus {
+  border: none;
+  outline: none;
+}
+.pg-login .card .card_left button {
+  padding: 0 30px;
+  border-radius: 20px;
+  text-transform: uppercase;
+}
+
+.pg-login .card .card_right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  gap: 20px;
+  background: black;
+  background-image: url("../../image/black.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: var(--white);
+}
+
+.pg-login .card .card_right strong {
+  font-size: 1.6rem;
+}
+.pg-login .card .card_right a {
+  background: var(--white);
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 30px;
+  border-radius: 20px;
+}
